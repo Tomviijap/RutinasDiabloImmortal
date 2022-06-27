@@ -107,6 +107,28 @@
         </div>
     </nav>
 
+		<div id="monthlie" class="table_container monthlie_table draggable" data-x="0" data-y="0">
+            <input type="checkbox" class="theme-switch" />
+            <table id="monthlie_table" class="activity_table table table-dark table-striped table-hover"
+                   data-timeframe="monthlie">
+                <thead>
+                <tr>
+                    <th> <span id="th-countdown-monthlie" class="countdown"></span></th>
+                    <td>
+                        <span class="text-nowrap">
+                            <button id="monthlie_reset_button"
+                                    class="reset_button expanding_button btn btn-secondary btn-sm active"
+                                    title="Completely reset checked items, hiding, position, order to default">↺<span
+                                    class="expanding_text"> Reset</span></button>
+                        </span>
+                    </td>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
     <div class="container-xl activity_tables" id="characters_body">
         <div id="dailies" class="table_container dailies_table interact draggable" data-x="0" data-y="0">
             <input type="checkbox" class="theme-switch" />
@@ -234,7 +256,7 @@
         <tr draggable="true">
             <td class="activity_name" draggable="false">
                 <a target="_blank" rel="noopener noreferrer" draggable="false">Nombre</a>
-                <button class="hide-button expanding_button btn btn-danger btn-sm active">⊘<span class="expanding_text"> Hide</span>
+                <button class="hide-button expanding_button btn btn-danger btn-sm active">⊘<span class="expanding_text"> Ocultar</span>
                 </button>
             </td>
             <td class="activity_color">
